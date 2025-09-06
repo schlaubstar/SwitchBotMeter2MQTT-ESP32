@@ -4,5 +4,6 @@ That's why I built a device based on the ESP32 modules, specifically the small E
 
 The project includes code converted from Python to C from the following sources and repositories:
 - https://github.com/ronschaeffer/sbm2mqtt
+- https://github.com/IanHarvey/bluepy
 
 It is tailored to my needs, i.e., the sensors are read cyclically, otherwise the ESP32 module sleeps, and it is filtered for known BLE devices, i.e., you have to read and store the MAC addresses of new SwitchBotMeters beforehand. 
