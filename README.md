@@ -50,7 +50,9 @@ This project includes code fragments originally written in Python, adapted from 
 * <https://github.com/ronschaeffer/sbm2mqtt>
 * <https://github.com/IanHarvey/bluepy>
 
-The implementation is tailored to specific needs: sensors are read cyclically, and MAC addresses of target devices must be provided in advance. If no matching MAC address is configured, the ESP32 module enters sleep mode.
+The implementation is tailored to specific needs: sensors are read cyclically, and MAC addresses of target devices must be provided in advance. 
+It basically acts as "range-extender" for SwitchBot Meter devices that are too far away from the Bluetooth receiver.
+
 
 ## Contributions
 
